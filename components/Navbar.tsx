@@ -10,7 +10,7 @@ const desktopLinks = [
   { label: "Pengalaman", href: "#experience" },
   { label: "Pendidikan", href: "#education" },
   { label: "Skills", href: "#skills" },
-  { label: "Sertifikat", href: "#certificates" },
+
 ];
 
 const mobileLinks = [
