@@ -34,7 +34,7 @@ export default function About() {
             className="bg-white rounded-3xl p-8 lg:p-10 premium-shadow"
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           >
             <h3 className="font-serif-display font-bold text-2xl text-[var(--text-main)] mb-6">
@@ -64,7 +64,7 @@ export default function About() {
             className="flex flex-col gap-4"
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
             {info.map(({ icon: Icon, label, value }) => (

@@ -66,7 +66,7 @@ export default function Experience() {
               className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
             >
               <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-[var(--purple-main)] shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 relative z-10">

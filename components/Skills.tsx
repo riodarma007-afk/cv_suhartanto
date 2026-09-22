@@ -47,7 +47,7 @@ export default function Skills() {
             className="font-serif-display font-bold text-3xl md:text-5xl text-[var(--text-main)] mb-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.6 }}
           >
             Keahlian Utama
@@ -56,7 +56,7 @@ export default function Skills() {
             className="text-[var(--text-muted)] max-w-2xl mx-auto text-lg"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
             Kemampuan teknis dan administratif yang mendukung efisiensi operasional.

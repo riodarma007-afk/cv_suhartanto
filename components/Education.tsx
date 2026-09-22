@@ -14,7 +14,7 @@ export default function Education() {
               className="font-serif-display font-bold text-3xl md:text-5xl text-[var(--text-main)] mb-4"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6 }}
             >
               Pendidikan Formal
@@ -23,7 +23,7 @@ export default function Education() {
               className="text-[var(--text-muted)] text-lg mb-8 max-w-md mx-auto md:mx-0"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               Latar belakang akademis yang membentuk pola pikir analitis dan sistematis.
@@ -34,7 +34,7 @@ export default function Education() {
             className="flex-1 w-full"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="bg-white rounded-3xl p-8 premium-shadow relative overflow-hidden group">
