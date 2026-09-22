@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #F8F9FB; /* Off-white / lavender tint */
+  --bg-card: #FFFFFF;
+  --text-main: #1A1A24; /* Dark charcoal */
+  --text-muted: #6B7280;
+  
+  --purple-main: #635BFF;
+  --purple-dark: #4F46E5;
+  --purple-light: #E0E7FF;
+  --purple-glow: rgba(99, 91, 255, 0.15);
+  
+  --orange-accent: #FF8A00;
+  --orange-glow: rgba(255, 138, 0, 0.15);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Offset for sticky navbar */
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: var(--font-inter);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 80px; /* Space for mobile bottom navigation */
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Typography Classes */
+.font-serif-display {
+  font-family: var(--font-playfair), serif;
+}
+
+/* Soft Premium Shadow for Cards */
+.premium-shadow {
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05), 0 0 20px rgba(99, 91, 255, 0.03);
+}
+
+/* Glass Header */
+.glass-header {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Grid background pattern for subtle texture */
+.grid-pattern-light {
+  background-image: 
+    linear-gradient(rgba(99, 91, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 91, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Organic shapes for background */
+.blob-shape {
+  border-radius: 45% 55% 70% 30% / 30% 30% 70% 70%;
+}
