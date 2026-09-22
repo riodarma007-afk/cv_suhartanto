@@ -65,7 +65,7 @@ export default function Hero() {
 
             <div className="mt-8 flex items-center justify-center lg:justify-start gap-4">
               <a
-                href="CV_Suhartanto.docx"
+                href="/cv_suhartanto/CV_Suhartanto.docx"
                 download
                 className="inline-flex items-center gap-2 text-[var(--text-muted)] hover:text-[var(--purple-main)] transition-colors font-medium text-sm group"
               >
@@ -88,7 +88,7 @@ export default function Hero() {
               {/* Main Photo Mask */}
               <div className="absolute inset-0 rounded-[40px] overflow-hidden">
                 <Image
-                  src="/anto.jpg"
+                  src="/cv_suhartanto/anto.jpg"
                   alt="Suhartanto"
                   fill
                   className="object-cover object-top"
@@ -105,7 +105,7 @@ export default function Hero() {
                 className="absolute top-12 -left-6 md:-left-12 bg-white rounded-2xl p-4 premium-shadow flex items-center gap-4 z-20"
               >
                 <div className="w-12 h-12 bg-[var(--purple-light)] rounded-full flex items-center justify-center overflow-hidden">
-                  <Image src="/anto.jpg" alt="Avatar" width={48} height={48} className="object-cover object-top" />
+                  <Image src="/cv_suhartanto/anto.jpg" alt="Avatar" width={48} height={48} className="object-cover object-top" />
                 </div>
                 <div>
                   <p className="font-serif-display font-bold text-[var(--text-main)] text-sm">Suhartanto</p>

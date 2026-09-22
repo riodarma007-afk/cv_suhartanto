@@ -11,13 +11,13 @@ const certificates = [
     id: 1,
     title: "Sertifikat 1",
     description: "Upload gambar sertifikat Anda",
-    src: "/cert-placeholder.png",
+    src: "/cv_suhartanto/cert-placeholder.png",
   },
   {
     id: 2,
     title: "Sertifikat 2",
     description: "Upload gambar sertifikat Anda",
-    src: "/cert-placeholder.png",
+    src: "/cv_suhartanto/cert-placeholder.png",
   },
 ];
 
