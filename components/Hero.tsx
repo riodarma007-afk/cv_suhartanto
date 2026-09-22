@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Download, Building2, MapPin } from "lucide-react";
+import antoImg from "@/../public/anto.jpg";
 
 export default function Hero() {
   const handleContact = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -88,7 +89,7 @@ export default function Hero() {
               {/* Main Photo Mask */}
               <div className="absolute inset-0 rounded-[40px] overflow-hidden">
                 <Image
-                  src="/cv_suhartanto/anto.jpg"
+                  src={antoImg}
                   alt="Suhartanto"
                   fill
                   className="object-cover object-top"
@@ -105,7 +106,7 @@ export default function Hero() {
                 className="absolute top-12 -left-6 md:-left-12 bg-white rounded-2xl p-4 premium-shadow flex items-center gap-4 z-20"
               >
                 <div className="w-12 h-12 bg-[var(--purple-light)] rounded-full flex items-center justify-center overflow-hidden">
-                  <Image src="/cv_suhartanto/anto.jpg" alt="Avatar" width={48} height={48} className="object-cover object-top" />
+                  <Image src={antoImg} alt="Avatar" width={48} height={48} className="object-cover object-top" />
                 </div>
                 <div>
                   <p className="font-serif-display font-bold text-[var(--text-main)] text-sm">Suhartanto</p>

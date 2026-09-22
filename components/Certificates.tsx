@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { Award, ExternalLink, X } from "lucide-react";
+import certPlaceholderImg from "@/../public/cert-placeholder.jpg";
 
 // Placeholder sertifikat — user dapat mengganti src dengan file gambar asli
 const certificates = [
@@ -11,13 +12,13 @@ const certificates = [
     id: 1,
     title: "Sertifikat 1",
     description: "Upload gambar sertifikat Anda",
-    src: "/cv_suhartanto/cert-placeholder.png",
+    src: certPlaceholderImg,
   },
   {
     id: 2,
     title: "Sertifikat 2",
     description: "Upload gambar sertifikat Anda",
-    src: "/cv_suhartanto/cert-placeholder.png",
+    src: certPlaceholderImg,
   },
 ];
 
